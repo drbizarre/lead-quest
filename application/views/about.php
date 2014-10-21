@@ -1,10 +1,10 @@
 <?php $this->load->view("commons/header"); ?>
   
- <div class="full_page_photo" style="background-image: url(<?php echo base_url(); ?>assets/images/4.jpg);">
+ <div class="full_page_photo" style="background-image: url(<?php echo base_url(); ?>assets/images/ComPlan.jpg);">
           <div class="hgroup">
                <div class="hgroup_title animated bounceInUp">
                     <div class="container">
-                         <h1 class="">Lead Quest</h1>
+                         <h1 class=""></h1>
                     </div>
                </div>
                <div class="hgroup_subtitle animated bounceInUp skincolored">

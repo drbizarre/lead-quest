@@ -223,7 +223,7 @@ class Main extends CI_Controller {
 	}
 	public function terms()
 	{
-		$data["title"] = "Nuvinoticias - Terms and Conditions";
+		$data["title"] = "Terminos y Condiciones - Lead Quest";
 		$data["description"] = "";
 		$data["menu_option"] = null;
 		$this->load->library('User_membership');

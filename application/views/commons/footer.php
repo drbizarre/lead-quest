@@ -4,7 +4,7 @@
                     <div class="container">
                          <div class="row">
                               <div class="col-sm-4 col-md-4">Copyright ©2014 all rights reserved </div>
-                              <div class="col-sm-4 col-md-4"></div>
+                              <div class="col-sm-4 col-md-4" style="text-align:center;"><a href="<?php echo site_url("terms-of-service") ?>">Terminos y Condiciones</a></div>
                               <div class="text-right col-sm-4 col-md-4"><a href="http://www.leadquestmarketing.com/">Lead Quest Marketing</a> </div>
                          </div>
                     </div>

@@ -10,7 +10,7 @@
                     </div>
                     <div class="hgroup_subtitle animated bounceInUp skincolored">
                          <div class="container">
-                              <p>Disfrutamos mucho <strong>comunicarnos</strong> con nuestros clientes!</p>
+                              <p>Un representante autorizado de <strong>Lead-Quest</strong> se comunicará contigo en breve!</p>
                          </div>
                     </div>
                </div>
@@ -27,15 +27,17 @@
                <section>
                     <div class="row">
                          <div class="office_address col-sm-6 col-md-4">
-                              <div class="team_member"> <img src="<?php echo base_url(); ?>assets/images/url3.png"  alt="logo">
-                                   <h5>Lead Quest</h5>
+                              <div class="team_member"> <img src="<?php echo base_url(); ?>assets/images/LogoLeadQUest.png"  alt="logo">
+                                   <h5>Experimenta el poder de la Transformación</h5>
                                    <small>Plataforma de formacion y desarrollo de negocio</small><br>
-                                   <address>
-                                   795 Folsom Ave, Suite 600<br>
-                                   San Francisco, CA 94107<br>
-                                   </address>
-                                   <abbr title="Phone">P:</abbr> (123) 456-7890<br>
-                                   <abbr title="Phone">E:</abbr> <a href="mailto:#">info@lead-quest.com</a> </div>
+
+
+                                   <abbr title="Phone">P:</abbr> (951)223-1623<br>
+                                   <abbr title="Phone">E:</abbr> <a href="mailto:#">info@lead-quest.com</a>  <br> <br>
+                                   <a target="_blank" href="https://www.facebook.com/LeadQuestInc?ref=hl"><img src="<?php echo base_url(); ?>assets/images/facebook2.png"></a>
+                                   <a target="_blank" href="https://www.youtube.com/channel/UCLypnjBjnPHv4LsjeUYXNCA"><img src="<?php echo base_url(); ?>assets/images/youtube33.png"></a>
+                                   <a target="_blank" href="https://twitter.com/LeadQuestinc"><img src="<?php echo base_url(); ?>assets/images/twitter38.png"></a>
+                                 </div>
                          </div>
                          <div class="contact_form col-sm-6 col-md-8">
                               <?php

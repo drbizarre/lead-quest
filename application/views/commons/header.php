@@ -38,7 +38,7 @@
 <div class="overflow_wrapper">
      <header>
           <div class="container">
-               <div class="logo"><a class="brand" href="<?php echo site_url(); ?>"> <img src="<?php echo base_url(); ?>assets/images/url3.png" alt="optional logo"> <span class="logo_title">Lead Quest</span></a></div>
+               <div class="logo"><a class="brand" href="<?php echo site_url(); ?>"> <img src="<?php echo base_url(); ?>assets/images/url3.png" alt="optional logo"> <span class="logo_title"><img width="150" src="<?php echo base_url(); ?>assets/images/LogoLeadQUestL.png"></span></a></div>
                <div id="mainmenu" class="menu_container">
                     <label class="mobile_collapser">MENU</label>
                     <!-- Mobile menu title -->

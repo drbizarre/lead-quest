@@ -1,47 +1,63 @@
 <?php $this->load->view("commons/header"); ?>
-  
-<!-- page title -->
-    <div class="page-main-title">
+<div class="full_page_photo no_photo" style="background-image: url(<?php echo base_url(); ?>assets/images/ComPlan.jpg);">
+          <div class="hgroup">
+               <div class="hgroup_title animated bounceInUp">
+                    <div class="container">
+                         <h1 class="">Terminos y Condiciones</h1>
+                    </div>
+               </div>
+               <div class="hgroup_subtitle animated bounceInUp skincolored">
+                    <div class="container">
+                         <p>Somos un equipo de profesionales dispuestos a contribuir con nuestra experiencia y conocimiento al desarrollo de tu negocio</p>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="main">
+          <div class="container triangles-of-section">
+               <div class="triangle-up-left"></div>
+               <div class="square-left"></div>
+               <div class="triangle-up-right"></div>
+               <div class="square-right"></div>
+          </div>
+          <section class="horizontal_teaser">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-sm-12 col-md-12">
+<h3>Terminos y Condiciones</h3>
+<p>Este servicio está diseñado con la finalidad de aportar un apoyo promocional.  El uso inapropiado del mismo, es responsabilidad del usuario.</p>
+<p>Este es un servicio exclusivo para Asociados Promotores inscritos en la plataforma de negocio Lead-Quest, Inc. y cuanta con 4 (cuatro) opciones de membresía. </p>
+<p>La opción Básica está incluida en la membresía de Asociado Promotor.  La opción Empresarial es una versión ampliada que brinda mayor versatilidad y opciones, permitiendo así desarrollar campañas de mercadeo de atracción en forma más efectiva.</p>
+<p>El sistema será activado en forma inmediata una vez que se complete la forma de registración y se cumpla satisfactoriamente con todos los pasos requeridos.</p>
+<p>La versión Básica no tiene ningún costo adición, solo con colocar un número de Asociado valido y vigente se podrá proceder con la implementación del sistema.</p>
+<p>La versión empresarial de esta página de captura tiene un cobro, mensual, semestral, o anual según sea la elección.  El Asociado es responsable de mantener una tarjeta activada y con fondos para que el sistema pueda realizar el cobro según corresponda con el ciclo elegido.  Todo Inscrito al sistema de prospectación recibirá un correo electrónico tres (3) días antes de que se realice la transferencia de fondos.</p>
+<p>Lead-Quest, Inc. Se reserva el derecho de negar o cancelar la activación del sistema a todo aquél que según el criterio de la empresa no reúna los requisitos para recibir este servicio.  La empresa Lead-Quest, Inc. enviará por correo electrónico y/o correo regular, una carta explicatoria de las razones de dicha negativa o cancelación.</p>
+<p>Todo usuario tiene el derecho de cancelar el servicio y los cargos programados serán suspendidos.  Para evitar el cobro en periodo de cancelación, esta deberá realizarse antes de 3 (tres) días del vencimiento de periodo.</p>
+<p>Para cancelar el servicio, el usuario deberá ingresar en el panel de control de su cuenta usando su nombre de usuario y contraseña, y desde este panel, seleccionar el botón de cancelación facilmente identificado, y deberá completar la forma electrónica de cancelación provista dentro del panel de control.  El sistema le enviará un correo de confirmación preguntado si efectivamente se realizó esta cancelación en forma consiente, de ser así, ninguna acción futura será necesaria.  Si la cancelación obedece a un error, o no fue realizada por el usuario, en este correo encontrarán un enlace para solicitar la reactivación de sistema.</p>
+<p>Los términos y condiciones de este servicio, son propiedad intelectual de Lead-Quest, Inc. por lo cual podrán ser modificados o revocados a criterio de la empresa.   
 
-        <div class="leaft-title"><h1>Términos y Condiciones</h1></div>
-        <span class="reght-pagenation"><a href="<?php echo site_url(); ?>">Home</a> <i>/ </i> Terms and Conditions</span>
-
-    </div><!-- end copyright info -->
-
-<!-- Content
-======================================= -->  
-<div id="content">
-    <div class="container">
-    
-        <!-- content left area -->
-        <div class="content-left">
-            
-                <p>EL uso de Nuvi Noticias, es exclusivo para los miembros de Nuvi Global, no se puede usar el sitio ni los servicios por terceros que no estén o formen parte de los miembros activos de Nuvi Global.</p>
-                <p>Este es un servicio mensual y estará efectivo desde el momento en que el participante se registre y acepte el cobro mensual, este cobro se hará efectivo electrónicamente cada mes a menos que el empresario independiente de Nuvi Global cancele el servicio.</p>
-                <p>Es responsabilidad del Empresario Independiente de Nuvi el cambiar su tarjeta usada como método de pago en caso de que la tarjeta que esta en el sistema sea renovada o cancelada, el uso del sistema se cancelara de inmediato si el sistema no  tiene una tarjeta activa.</p>
-                <p>El uso del sistema es PERSONAL y no puede usarse entre  dos o mas miembros.</p>
-                <h4>DISPOSICIONES FINALES</h4>
-                <ul>
-                <li>La falta de NuviNoticias.com de ejercer o hacer cumplir cualquiera de los Términos Legales y Condiciones de Uso no constituirá renuncia de dicho derecho.</li>
-                <li>Si cualquiera de las disposiciones contenidas en los presentes Términos Legales y Condiciones de Uso fuese inválida o de imposible ejecución, entonces: la validez y legalidad de las otras disposiciones contenidas en los Términos Legales y Condiciones de Uso no se verán afectadas o menoscabadas en modo alguno, y dicha disposición será modificada a fin de que sea válida y ejecutable.</li>
-                <li>NuviNoticias.com se reserva el derecho de modificar el servicio y los Términos Legales y Condiciones si previo aviso.</li>
-                </ul>
 
 
 
-        </div><!-- end content left area -->
-        <?php 
-        if (empty($user)) {
-            $this->load->view("commons/right-sidebar");
-        }else{
-            $this->load->view("commons/dashboard-menu");
-        }
 
-        ?>
 
-    </div>
-</div>
+
+<h3>POLÍTICAS DE PRIVACIDAD</h3>
+
+<p>La información provista por el usuario para la activación de la página, así como los datos personales, serán utilizados única y exclusivamente con la finalidad de identificar y activar el sistema.  Ninguna información será compartida o vendida a empresas ajenas a la compañía Lead-Quest, Inc.</p>
+<p>De igual manera los usuarios del sistema están bajo la misma política, de tal manera, la información que la empresa comparta deberá mantener el mismo nivel de confidencialidad.                            </p>
+                         </div>
+
+                    </div>
+               </div>
+          </section>
+          <section class="parallax call_to_action" style="background-image:url(<?php echo base_url(); ?>assets/images/parallax.jpg)">
+               <div class="overlay"> <img alt="responsive" src="<?php echo base_url(); ?>assets/images/target5w.png">
+                    <h3>Sobre Nosotros</h3>
+                    <h4>Somos un equipo de profesionales dispuestos a contribuir con <br>nuestra experiencia y conocimiento al desarrollo de tu negocio</h4>
+               </div>
+          </section>
+
+
 
 <?php $this->load->view("commons/footer"); ?>
-</body>
-</html>

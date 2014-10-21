@@ -3,6 +3,14 @@
      <section id="slider_wrapper" class="slider_wrapper full_page_photo">
           <div id="main_flexslider" class="flexslider">
                <ul class="slides">
+                    <li class="item" style="background-image: url(<?php echo base_url(); ?>assets/images/4.jpg)">
+                         <div class="container">
+                              <div class="carousel-caption animated bounceInUp">
+                                   <h1>Bienvenido a Lead-Quest</h1>
+                                   <p class="lead skincolored"> Experimenta el Poder de la Transformación.</p>
+                              </div>
+                         </div>
+                    </li>                     
                     <li class="item" style="background-image: url(<?php echo base_url(); ?>assets/images/1.jpg)">
                          <div class="container">
                               <div class="carousel-caption animated bounceInUp">
@@ -14,7 +22,7 @@
                     <li class="item" style="background-image: url(<?php echo base_url(); ?>assets/images/2.jpg)">
                          <div class="container">
                               <div class="carousel-caption animated bounceInUp">
-                                   <h1>Pagina de Captura <strong>Gratis</strong></h1>
+                                   <h1>Monetiza tu negocio <strong>Virtual</strong></h1>
                                    <p class="lead skincolored">Una herramienta efectiva para la prospectación.
 de uso exclusivo para los Distribuidores de Lead-Quest.</p>
                               </div>
@@ -23,19 +31,11 @@ de uso exclusivo para los Distribuidores de Lead-Quest.</p>
                     <li class="item" style="background-image: url(<?php echo base_url(); ?>assets/images/3.jpg)">
                          <div class="container">
                               <div class="carousel-caption animated bounceInUp">
-                                   <h1>Monetiza tu negocio <strong>virtual</strong></h1>
+                                   <h1>Página de Captura <strong>Gratis</strong></h1>
                                    <p class="lead skincolored">Millones de personas día con día navegan por el internet aprovecha está excelente oportunidad de dar a conocer tu negocio.</p>
                               </div>
                          </div>
-                    </li>
-                    <li class="item" style="background-image: url(<?php echo base_url(); ?>assets/images/4.jpg)">
-                         <div class="container">
-                              <div class="carousel-caption animated bounceInUp">
-                                   <h1>Sobre Nosotros</h1>
-                                   <p class="lead skincolored">Somos un equipo de profesionales dispuestos a contribuir con nuestra experiencia y conocimiento al desarrollo de tu negocio.</p>
-                              </div>
-                         </div>
-                    </li>                    
+                    </li>                   
                </ul>
           </div>
      </section>
@@ -68,7 +68,7 @@ de uso exclusivo para los Distribuidores de Lead-Quest.</p>
                <div class="container">
                     <h3>Conoce los beneficios de <strong><span class="rotate">Pagina de Captura, Duplicador Digital, Landing Page</span></strong></h3>
                     <h4>Tu herramienta de marketing nunca fue igual</h4>
-                    <a class="btn btn-primary" href="registrate.html">Registrate!</a> </div>
+                    <a class="btn btn-primary" href="<?php echo site_url("registro"); ?>">Registrate!</a> </div>
           </section>
 
 
