@@ -6,8 +6,8 @@ $(document).ready(function() {
         //get input field values
         var user_name       = $('#name').val(); 
         var user_email      = $('#email').val();
-        var user_subject    = $('#subject').val();
         var user_message    = $('#message').val();
+        var emailcontact    = $('#emailcontact').val();
         var output;
 
         var notice     = $("#notice");
@@ -18,7 +18,7 @@ $(document).ready(function() {
         
         if ( notice.is(":visible") ) notice.hide();
 
-        if ( "" == user_name || "" == user_email || "" == user_subject || "" == user_message ){
+        if ( "" == user_name || "" == user_email || "" == user_message ){
 
                notice.removeClass().html($req_fields).addClass("alert alert-warning alert-dismissable").fadeIn(400);
                proceed = false;
@@ -33,10 +33,7 @@ $(document).ready(function() {
             $('#email').css('border-color','red'); 
             proceed = false;
         }
-        if(user_subject=="") {    
-            $('#subject').css('border-color','red'); 
-            proceed = false;
-        }
+        
         if(user_message=="") {  
             $('#message').css('border-color','red'); 
             proceed = false;
@@ -46,16 +43,16 @@ $(document).ready(function() {
         if(proceed) 
         {
             //data to be sent to server
-            var post_data = {'userName':user_name, 'userEmail':user_email, 'userSubject':user_subject, 'userMessage':user_message};
+            var post_data = {'name':user_name, 'email':user_email, 'userMessage':user_message,'emailcontact':emailcontact};
             
             //Ajax post data to server
-            $.post('contact.php', post_data, function(response){  
-                
+            $.post('http://localhost/lead-quest/mailer/sender.php', post_data, function(response){  
+                notice.removeClass().html("Mensaje Enviado").addClass("alert alert-warning alert-dismissable").fadeIn(400);
                 //load json data from server and output message     
                 if(response.type == 'error')
                 {
                     output = response.text;
-		notice.removeClass().html(output).addClass("alert alert-warning alert-dismissable").fadeIn(400);
+		notice.removeClass().html("Mensaje Enviado").addClass("alert alert-warning alert-dismissable").fadeIn(400);
                 }else{
                 
                     output = response.text;
@@ -67,7 +64,7 @@ $(document).ready(function() {
                 }
                 
             }, 'json');
-            
+            notice.removeClass().html("Mensaje Enviado").addClass("alert alert-success alert-dismissable").fadeIn(400);
         }
     });
     
@@ -75,5 +72,10 @@ $(document).ready(function() {
     $("#contact_form input, #contact_form textarea").keyup(function() { 
         $("#contact_form input, #contact_form textarea").css('border-color',''); 
     });
-    
+        $('#name').val(""); 
+        $('#email').val("");
+        $('#message').val("");
+        $('#notice').hide("slow");
+
+   
 });

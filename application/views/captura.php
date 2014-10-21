@@ -1,42 +1,38 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Lead Quest</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- CSS Files comes here -->
-    <link href="http://www.nuvinoticias.com/demo/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="http://www.nuvinoticias.com/demo/css/style.css" rel="stylesheet" media="screen">
-    <link href="http://www.nuvinoticias.com/demo/css/animate.css" rel="stylesheet" media="screen">
-    <link href="http://www.nuvinoticias.com/demo/css/owl.carousel.css" rel="stylesheet" media="screen">
-    <link href="http://www.nuvinoticias.com/demo/css/owl.theme.css" rel="stylesheet" media="screen">
-    <link href="http://www.nuvinoticias.com/demo/css/nivo-lightbox.css" rel="stylesheet" media="screen">
-    <link href="http://www.nuvinoticias.com/demo/css/nivo_lightbox_themes/default/default.css" rel="stylesheet" media="screen">
-    <link href="http://www.nuvinoticias.com/demo/css/colors/green.css" rel="stylesheet" media="screen">
-    <link href="http://www.nuvinoticias.com/demo/css/responsive.css" rel="stylesheet" media="screen">
-    
-    <!-- Google fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css">
-    
-    <!-- Modernizer and IE specyfic files -->  
-    <script src="http://www.nuvinoticias.com/js/modernizr.custom.js"></script>
-      
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="http://www.nuvinoticias.com/demo/js/html5shiv.js"></script>
-      <script src="http://www.nuvinoticias.com/demo/js/respond.min.js"></script>
-    <![endif]-->
-    
-    <!--[if IE 9]>
-     <link href="http://www.nuvinoticias.com/demo/css/ie.css" rel="stylesheet" media="screen">
-    <![endif]-->
-    
-    <link href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800" rel="stylesheet" type="text/css">
-    <!-- END Switcher Styles -->
-    
-    <!-- Demo Examples -->
-    <link rel="alternate stylesheet" type="text/css" href="http://www.nuvinoticias.com/demo/css/colors/green.css" title="green" media="all" />
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lead Quest</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<!-- All Animations CSS -->
+<link href="<?php echo base_url(); ?>assets/css/animate.css" rel="stylesheet" type="text/css">
+<!-- Image Lightbox CSS-->
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/imagelightbox.css" type="text/css" media="screen">
+<!-- Theme styles and Menu styles -->
+<link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet" type="text/css">
+<link href="<?php echo base_url(); ?>assets/css/mainmenu.css" rel="stylesheet" type="text/css">
+<!-- Call Fontawsome Icon Font from a CDN -->
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!--Pace Page Loader -->
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/pace-0.5.1/themes/pace-theme-minimal.css" type="text/css" media="screen" />
+<!--FlexSlider -->
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/woothemes-FlexSlider-06b12f8/flexslider.css" type="text/css" media="screen">
+<!--Isotope Plugin -->
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/isotope/css/style.css" type="text/css" media="screen">
+<!--Simple Text Rotator -->
+<link href="<?php echo base_url(); ?>assets/css/simpletextrotator.css" rel="stylesheet" type="text/css">
+<!--Style Switcher, You propably want to remove this!-->
+<link href="<?php echo base_url(); ?>assets/css/_style_switcher.css" rel="stylesheet" type="text/css">
+<!--Modernizer Custom -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/modernizr.custom.48287.js"></script>
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url(); ?>apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url(); ?>apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>apple-touch-fa-57x57-precomposed.html">
+<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/url3.png">
 
     <script type="text/javascript">
 
@@ -51,208 +47,138 @@
       })();
 
     </script>
-    
-  </head>
-  
+</head>
+<body class="sticky_header1">
+<div class="overflow_wrapper">
 
-  <body>
-
-    <!--###############################-->
-    <!--PRELOADER #####################-->
-    <!--###############################-->
-    
-    <div id="preloader">
-        <div id="status">
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-        </div>
-    </div>
-
-
-    <!--###############################-->
-    <!--HOME ##########################-->
-    <!--###############################-->
-
-    <section id="home">
-    <div class="container">
-        <div class="row">
-            <div id="homescreen" class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-                 <div id="slogan"><h1>¿Conoces a alguna persona que quiera mejorar su salud y estilo de vida de una manera sencilla y natural?</h1></div>
-                 <a id="video" href="http://www.nuvinoticias.com/demo/video.html" data-lightbox-type="iframe"><img alt="img" id="home_image" class="img-responsive animated fadeInUp" src="http://www.nuvinoticias.com/demo/images/homescreen.jpg"></a>
-                  <img class="img-responsive" id="button_download" src="http://www.nuvinoticias.com/demo/images/request-an-information-pack.png" style="display:block; margin: 0px auto 20px auto; cursor:pointer;">
-            </div> <div class="clearfix"></div>
-        </div>
-    </div>
-    </section>
-    
-    
-    <!--###############################-->
-    <!--ABOUT #########################-->
-    <!--###############################-->
-    
-    <section id="about">
-        <div class="container">
-            
-            <div class="row" id="about_intro">
-                <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3" >
-                    
-                    <h2>Call: <?php echo $profile->phone; ?></h2>
-                    <h3>Escríbeme: <?php echo $user->email; ?></h3>
-                    <?php if (!empty($profile->youtube) && !empty($profile->facebook) && !empty($profile->skype)) { ?>
-                    <h4>tambien puedes seguirme en:</h4>
-                    <?php } ?>
-                    
-                </div>
-            </div>
-            <?php 
-            $counter = 0;
-            if (!empty($profile->youtube)) {
-                $counter++;
-            }
-            if (!empty($profile->facebook)) {
-                $counter++;
-            } 
-            if (!empty($profile->skype)) {
-                $counter++;
-            } 
-            if ($counter==3) {
-                $col="4";
-            }
-            if ($counter==2) {
-                $col="6";
-            }
-            if ($counter==1) {
-                $col="12";
-            }            
-            if ($counter==0) {
-                $cola="style=\"display:none;\"";
-            }else{
-                $cola = "";
-            }
-            ?>
-            <div class="row" <?php echo $cola; ?>>
-                
-                <div class="col-sm-4 col-md-2 col-lg-2 col-md-offset-3 col-lg-offset-3" id="service_1">
-                    <?php if (!empty($profile->youtube)) { ?>
-                    <a href="<?php echo $profile->youtube; ?>" target="_blank">
-                    <img src="http://www.nuvinoticias.com/demo/images/1403596352_youtube.png" class="services_icon" />
-                    
-                    <h3>Suscríbete</h3>
-                    <p>ver videos de mi experiencia</p>
-                    </a>
-                    <?php } ?>
-                </div>
-                
-                <div class="col-sm-4 col-md-2 col-lg-2" id="service_2">
-                    <?php if (!empty($profile->facebook)) { ?>
-                    <a href="<?php echo $profile->facebook; ?>" target="_blank">
-                    <img src="http://www.nuvinoticias.com/demo/images/1403596369_facebook.png" class="services_icon" />
-                    <h3>Sígueme</h3>
-                    <p>entérate minuto a minuto</p>
-                    </a>
-                    <?php } ?>
-                </div>
-                
-                <div class="col-sm-4 col-md-2 col-lg-2" id="service_3">
-                    <?php if (!empty($profile->skype)) { ?>
-                    <a href="skype:<?php echo $profile->skype; ?>?call" target="_blank">
-                    <img src="http://www.nuvinoticias.com/demo/images/1403596528_skype_circle_color.png" class="services_icon" />
-                    <h3>Agrégame</h3>
-                    <p>disponible 24/7</p>
-                    </a>
-                    <?php } ?>
-                </div>
-                
-            </div>
-    
-        </div>
-    </section>
-    
-    
-   
-    <!--###############################-->
-    <!--Newsletter and Footer #########-->
-    <!--###############################-->
-    
-    <section id="footer">
-        <div class="container">
-            <div class="row" id="newsletter">
-                <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3" >
-                    
-                    <h2>¡Si! Quiero mayor información</h2>
-                    <p>Por favor llena el siguiente formulario.
-                    </p>
-                    
-                    <div id="newsletter_form">
-                        <div id="form-main">
-                            <div id="form-div">
-                                <form class="form" id="form1" action="http://www.nuvinoticias.com/mailer/sender.php" method="post">
-                                  <input type="hidden" id="emailcontact" name="emailcontact" value="<?php echo $profile->emailcontact; ?>">
-                                  <p class="name">
-                                    <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
-                                  </p>
-                                  
-                                  <p class="email">
-                                    <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-                                  </p>
-
-                                  <p class="phone">
-                                    <input name="phone" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Teléfono Móvil" id="phone" />
-                                  </p>
-
-                                  <p class="country">
-                                    <input name="country" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="País ó Estado" id="country" />
-                                  </p>
-                                  <div class="submit">
-                                    <input type="submit" value="ENVIAR" id="button-blue"/>
-                                    <div class="ease"></div>
-                                  </div>
-                                </form>
-
-                            </div>
-                        </div>
+     <div class="full_page_photo no_photo" style="margin-top:-100px;">
+          <div class="hgroup">
+               <div class="hgroup_title animated bounceInUp">
+                    <div class="container">
+                         <h1 class="" align="center">Experimenta el Poder de la Transformación.</h1>
                     </div>
-                </div>
-                       
-               <div class="row">
-                   <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1" id="share">
-                       <p><img src="http://www.nuvinoticias.com/demo/images/Innova-logo.png"><br>Copyright &copy; 2014 Innova</p>
-                   </div>
                </div>
-            </div>
-            <div class="row" id="preview" style="opacity:0;"></div>    
-        </div>
-    </section>
-    
-   
-    <!-- JavaScript plugins comes here -->
-    <script src="http://www.nuvinoticias.com/demo/js/jquery-2.0.3.min.js"></script>
-    <script src="http://www.nuvinoticias.com/demo/js/jquery.easing.min.js"></script>
-    <script src="http://www.nuvinoticias.com/demo/js/jquery.scrollTo.js"></script>
-    <script src="http://www.nuvinoticias.com/demo/js/jquery.form.js"></script>
-    <script src="http://www.nuvinoticias.com/demo/js/main.js"></script>
-    <script src="http://www.nuvinoticias.com/demo/js/retina.js"></script>
-    <script src="http://www.nuvinoticias.com/demo/js/waypoints.min.js"></script>
-    <script src="http://www.nuvinoticias.com/demo/js/owl.carousel.min.js"></script>
-    <script src="http://www.nuvinoticias.com/demo/js/nivo-lightbox.min.js"></script>
-    <script type="text/javascript">
-        $('document').ready(function(){
-                
-                $('#form1').ajaxForm( {
-                target: '#preview',
-                success: function() { 
-                      $('#newsletter').slideUp('slow');
-                      $('#preview').css({"opacity":"1"});
-                    }
-                });
-            });
-    </script>
+               <div class="hgroup_subtitle animated bounceInUp skincolored">
+                    <div class="container">
+                         <p align="center">Herramientas para el desarrollo de negocio</p>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="main">
+          <div class="container triangles-of-section">
+               <div class="triangle-up-left"></div>
+               <div class="square-left"></div>
+               <div class="triangle-up-right"></div>
+               <div class="square-right"></div>
+          </div>
+          <section class="horizontal_teaser">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-sm-12 col-md-4 horizontal_teaser_left text-center" >
+                              <h2>¿Deseas más información?</h3>
+                              <p>Es una pagina de apoyo para los empresarios independientes de Lead Quest, creada con el fin de ofrecer un medio sencillo y din&aacute;mico de prospectaci&oacute;n efectiva a nivel profesional, contando con lo ultimo en tecnolog&iacute;a.</p>
+                              <img src="<?php echo base_url(); ?>assets/images/blue-right-arrow-md.png" style="display:block; margin:0 auto;">
+                         </div>
+                         <div class="col-sm-12 col-md-8 horizontal_teaser_right">
+                              <iframe width="640" height="360" src="//www.youtube.com/embed/rMfaGMFS8VE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <div class="container">
+               <section>
+                    <div class="row">
+                         <div class="office_address col-sm-6 col-md-4">
+                              <div class="team_member">
 
-    
+                                   <h2>Contáctame</h2>
+                                   
+                                   
+                                   
+                                   <h4>Phone</h4> <?php echo $profile->phone; ?><br>
+                                   <h4>Correo</h4> <a href="mailto:<?php echo $user->email; ?>"><?php echo $user->email; ?></a>  <br> <br>
+                                   <h2>Sígueme:</h2>
+                                   <?php if (!empty($profile->facebook)) { ?>
+                                   <a href="http://www.facebook.com/<?php echo $profile->facebook; ?>" target="_blank"><img src="<?php echo base_url(); ?>assets/images/facebook2.png" title=""></a>
+                                   <?php } ?>
+                                    <?php if (!empty($profile->youtube)) { ?>
+                                   <a href="http://www.youtube.com/<?php echo $profile->youtube; ?>" target="_blank"><img src="<?php echo base_url(); ?>assets/images/youtube33.png"></a>
+                                   <?php } ?>
+                                   <?php if (!empty($profile->skype)) { ?>
+                                   <a href="http://www.skype.com/<?php echo $profile->skype; ?>" target="_blank"><img src="<?php echo base_url(); ?>assets/images/twitter38.png"></a>
+                                   <?php } ?>
+                              </div>
+                         </div>
+                         <div class="contact_form col-sm-6 col-md-8">
+                              <form name="contact_form" id="contact_form" method="post">
+                                 <input type="hidden" id="emailcontact" name="emailcontact" value="<?php echo $profile->emailcontact; ?>">
+                                   <div class="row">
 
-    
-  </body>
+                                        <div class="col-sm-6 col-md-6">
+                                             <label>Nombre</label>
+                                             <input name="name" id="name" class="form-control" type="text" value="">
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                             <label>E-mail</label>
+                                             <input name="email" id="email" class="form-control" type="text" value="">
+                                        </div>
+                                   </div>
+
+                                   <div class="row">
+                                        <div class="col-sm-12 col-md-12">
+                                             <label>Comentarios</label>
+                                             <textarea name="message" id="message" rows="8" class="form-control"></textarea>
+                                        </div>
+                                        <div class="col-sm-12 col-md-12"><br/>
+                                             <a id="submit_btn" class="btn btn-primary" name="submit">Enviar</a> <span id="notice" class="alert alert-warning alert-dismissable hidden" style="margin-left:20px;"></span> </div>
+                                   </div>
+                              </form>
+                         </div>
+                    </div>
+               </section>
+          </div>          
+          <br>
+          <footer>
+
+               <div class="copyright">
+                    <div class="container">
+                         <div class="row">
+                              
+                              
+                              <div class="text-center col-sm-12 col-md-12">powered by <a href="http://www.leadquestmarketing.com/"> <img src="<?php echo base_url(); ?>assets/images/LogoLeadQUestW.png" style="vertical-align:middle;"></a> </div>
+                         </div>
+                    </div>
+               </div>
+          </footer>
+     </div>
+  <footer>
+
+
+     </div>
+     <script src="<?php echo base_url(); ?>assets/js/jquery-1.10.2.min.js"></script>
+     <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+     <!--Pace Page Loader -->
+     <script src="<?php echo base_url(); ?>assets/js/pace-0.5.1/pace.min.js"></script>
+     <!--FlexSlider -->
+     <script src="<?php echo base_url(); ?>assets/js/woothemes-FlexSlider-06b12f8/jquery.flexslider-min.js"></script>
+     <!--Isotope Plugin -->
+     <script src="<?php echo base_url(); ?>assets/js/isotope/jquery.isotope.min.js" type="text/javascript"></script>
+     <!--To-Top Button Plugin -->
+     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.ui.totop.js"></script>
+     <!--Easing animations Plugin -->
+     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/easing.js"></script>
+     <!--WOW Reveal on scroll Plugin -->
+     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/wow.min.js"></script>
+     <!--Simple Text Rotator -->
+     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.simple-text-rotator.js"></script>
+     <!--The Theme Required Js -->
+     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/cleanstart_theme.js"></script>
+     <!--To collapse the menu -->
+     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/collapser.js"></script>
+     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/contact_form.js"></script>
+
+</div>
+</body>
 </html>
+

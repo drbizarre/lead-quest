@@ -1,0 +1,143 @@
+[17-Jul-2014 21:45:35 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: asd' in /home/nuvinoti/public_html/beta/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/beta/mailer/sender.php(51): PHPMailer->setFrom('asd', 'asd')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/beta/mailer/class.phpmailer.php on line 803
+[17-Jul-2014 21:45:49 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/nuvinoti/public_html/beta/mailer/class.phpmailer.php:961
+Stack trace:
+#0 /home/nuvinoti/public_html/beta/mailer/class.phpmailer.php(925): PHPMailer->preSend()
+#1 /home/nuvinoti/public_html/beta/mailer/sender.php(60): PHPMailer->send()
+#2 {main}
+  thrown in /home/nuvinoti/public_html/beta/mailer/class.phpmailer.php on line 961
+[17-Jul-2014 21:47:22 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/nuvinoti/public_html/beta/mailer/sender.php on line 59
+[17-Jul-2014 22:00:12 America/Chicago] PHP Parse error:  syntax error, unexpected T_ECHO in /home/nuvinoti/public_html/beta/mailer/sender.php on line 61
+[18-Jul-2014 00:36:41 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: Test' in /home/nuvinoti/public_html/beta/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/beta/mailer/sender.php(51): PHPMailer->setFrom('Test', 'Marco')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/beta/mailer/class.phpmailer.php on line 803
+[22-Jul-2014 00:19:20 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Carlos')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[22-Jul-2014 15:29:49 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'verro')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[22-Jul-2014 15:34:25 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Ver??nica')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[22-Jul-2014 15:37:14 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Ver??nica')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[22-Jul-2014 15:43:26 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[23-Jul-2014 17:28:51 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[01-Aug-2014 00:27:11 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: alfonsoc.08' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('alfonsoc.08', 'carlos')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[01-Aug-2014 13:00:09 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Yolanda')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[02-Aug-2014 16:56:50 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Rosa Lopez     ...')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[02-Aug-2014 20:12:44 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Leonor Echeverr...')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[03-Aug-2014 10:48:26 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Edgar 1')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[07-Aug-2014 23:07:02 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Sagrario delaro...')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[07-Aug-2014 23:22:31 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: none' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('none', 'juan')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[12-Aug-2014 08:14:31 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[12-Aug-2014 14:53:00 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: hectoRaguilaR76@hot mail.com' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('hectoRaguilaR76...', 'hector Aguilar')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[17-Aug-2014 20:44:23 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[17-Aug-2014 21:06:30 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[18-Aug-2014 01:10:17 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[26-Aug-2014 00:14:29 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Ricardo Henande...')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[26-Aug-2014 00:15:38 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[26-Aug-2014 00:30:02 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[27-Aug-2014 22:25:32 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', 'Aracely')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[04-Sep-2014 16:25:00 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[24-Sep-2014 19:33:29 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
+[14-Oct-2014 00:51:48 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home/nuvinoti/public_html/mailer/class.phpmailer.php:803
+Stack trace:
+#0 /home/nuvinoti/public_html/mailer/sender.php(51): PHPMailer->setFrom('', '')
+#1 {main}
+  thrown in /home/nuvinoti/public_html/mailer/class.phpmailer.php on line 803
